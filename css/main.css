@@ -1,0 +1,79 @@
+body {
+	font-family: sans-serif;
+
+}
+
+nav {
+	width: 200px;
+
+}
+
+ul {
+	/* esta propiedad es para hacer un contorno alrededor de la etiqueta para ayuda visual
+	 no desmaqueta la estructura no aumenta ni padding ni margin 
+		outline: 1px solid yellow;
+	 */
+
+
+	/* Saca las viñetas */
+	list-style: none;
+	
+	/* Sacamos los valores predeterminados de los navegadores */
+	margin: 0;
+	padding: 0;
+
+	/*Espaciado entre líneas*/
+	line-height: 30px
+
+}
+
+li {
+	/*utline: 1px solid red;*/
+	background: #f5f5f0;
+}
+
+/* Etiqueta a, es inline ya que cambiándole su ancho o altura no le afecta (width: 150px;
+	height: 20px;)
+
+	propiedad text-decoration es para sacar la raya que se ve por ser enlace.
+
+	Estados de los enlaces: LoVe/HAte - link visited Hover Active;
+*/
+a {
+	/* outline: 1px solid green; */
+	display: block;
+	text-decoration: none;
+	color: #000;
+	padding-left: 10px; 
+}
+
+a:hover {
+	background: #e0e0d1;
+}
+
+/*Se presiona el clic */
+a:active {
+	background: #333;	
+	color: #fff;
+}
+
+/* colorea el primer li */
+ul li:first-child {
+	background: #f9a91a;
+}
+
+ul li:fiirst-child a {
+	color: #fff;
+}
+
+/* Cuando pase el puntero por cada li, este cambie el color de fondo*/
+ul li:first-child a:hover{
+	color: #000;
+}
+
+ul li:first-child a:active {
+	color: #fff;
+}
+
+
+
