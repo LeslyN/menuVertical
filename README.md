@@ -9,6 +9,6 @@ En este ejercicio se muestra en pantalla un menú vertical y se utilizó lo sigu
 	
 	- pseudo-clase `:hover`: obteniendo así el efecto de que cada vez que el puntero pase sobre cada elemento de nuestra lista creada antriormente, estas se visualice con énfasis de color.
 
-	- pseudo-clase `:active`: para reflejar lo que pasa cuando el usuario presiona en cada elemento hasta el momento en que lo suelta, es decir cuando lo actuva, viéndose en pantalla los cambios de color de fondo y de letra.
+	- pseudo-clase `:active`: para reflejar lo que pasa cuando el usuario presiona en cada elemento hasta el momento en que lo suelta, es decir cuando lo activa, viéndose en pantalla los cambios de color de fondo y de letra.
 
              
